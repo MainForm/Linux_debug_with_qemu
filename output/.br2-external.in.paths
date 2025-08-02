@@ -11,5 +11,5 @@ config BR2_EXTERNAL_DEBUG_LINUX_PATH
 	default "/home/gordon/debugLinux"
 config BR2_EXTERNAL_DEBUG_LINUX_VERSION
 	string
-	default "-gd6d6a4a-dirty"
+	default "-gff95a36-dirty"
 
