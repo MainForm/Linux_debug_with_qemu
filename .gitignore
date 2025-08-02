@@ -62,11 +62,5 @@ CMakeUserPresets.json
 
 ### Buildroot ###
 
-output/build
-output/host
-output/images
-output/target
-output/staging
-output/*.tmp
-
+output
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++
