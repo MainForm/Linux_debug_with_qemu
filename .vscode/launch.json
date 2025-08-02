@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug linux kernel",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/output/build/linux-6.1.44/vmlinux",
+            "miDebuggerServerAddress": "localhost:1234",
+            "args":[],
+            "cwd" :"${fileDirname}",
+            "miDebuggerPath": "${workspaceRoot}/output/host/bin/aarch64-buildroot-linux-gnu-gdb",
+            "stopAtEntry": true,
+            "externalConsole": false,
+            "MIMode": "gdb"
+        }
+    ]
+}
